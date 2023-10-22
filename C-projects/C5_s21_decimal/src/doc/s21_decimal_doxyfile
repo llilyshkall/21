@@ -1,0 +1,22 @@
+# Doxygen configuration file for s21_decimal
+# 69 Team
+# 14-02-2023
+
+PROJECT_NAME           = "s21_decimal"
+PROJECT_NUMBER         = "v0.1"
+PROJECT_BRIEF          = Decimal library implementation
+PROJECT_LOGO           = doc/logo.png
+OUTPUT_DIRECTORY       = doc
+
+
+
+INPUT = ./ doc
+OPTIMIZE_OUTPUT_FOR_C  = YES
+GENERATE_LATEX         = NO
+USE_MDFILE_AS_MAINPAGE = doc/README.md
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX 				 = NO
+FULL_SIDEBAR 					 = NO
+HTML_EXTRA_STYLESHEET  = doc/doxygen-awesome.css
+LAYOUT_FILE            = doc/DoxygenLayout.xml
+

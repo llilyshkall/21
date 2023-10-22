@@ -1,0 +1,21 @@
+# Doxygen configuration file for 3D_Viewer
+# @cormacsi
+# @chatayap
+# 26-04-2023
+
+PROJECT_NAME           = "3D_Viewer"
+PROJECT_NUMBER         = "v1.0"
+PROJECT_BRIEF          = 3D_Viewer implementation
+OUTPUT_DIRECTORY       = doc
+
+
+INPUT = ./back doc
+OPTIMIZE_OUTPUT_FOR_C  = YES
+GENERATE_LATEX         = NO
+USE_MDFILE_AS_MAINPAGE = doc/README.md
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX 				 = NO
+FULL_SIDEBAR 					 = NO
+HTML_EXTRA_STYLESHEET  = doc/doxygen-awesome.css
+LAYOUT_FILE            = doc/DoxygenLayout.xml
+
